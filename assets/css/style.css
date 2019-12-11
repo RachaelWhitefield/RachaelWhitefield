@@ -4,7 +4,4 @@
     text-align: initial; /* restore text-align to default */
   }
 
-  .fa-github-alt {
-    content: "\f113";
-    padding: 50px !important;
-}
+ 
