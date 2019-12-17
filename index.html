@@ -18,23 +18,23 @@
     <body id="home" class="scrollspy">
         <!-- NAVBAR -->
         <!-- <div class="navbar-fixed"> -->
-            <nav class="pink lighten-5">
+            <nav class="black">
                 <div class="container">
                     <div class="nav-wrapper">
                         <a href="#" class="brand-logo right">Rachael Whitefield</a>
                         <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                         <ul class="left hide-on-med-and-down">
                             <li>
-                                <a href="#home">Home</a>
+                                <a href="#home">CV</a>
                             </li>
                             <li>
                                 <a href="#portfolio">Portfolio</a>
                             </li>
                             <li>
-                                <a href="#skills">Skills</a>
+                                <a href="https://github.com/RachaelWhitefield" target="_blank">GitHub</a>
                             </li>
                             <li>
-                                <a href="#contact">Contact</a>
+                                <a href="https://www.linkedin.com/in/rachael-whitefield-952198180/" target="_blank">Linked In</a>
                             </li>
                         </ul>
                     </div>
@@ -49,13 +49,13 @@
                     <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#skills">Skills</a>
+                    <a href="https://github.com/RachaelWhitefield" target="_blank">GitHub</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="https://www.linkedin.com/in/rachael-whitefield-952198180/" target="_blank">Linked In</a>
                 </li>
             </ul>
-
+            <br>
         <!-- SECTION: SLIDER -->
         <section class="slider">
             <ul class="slides">
@@ -69,17 +69,15 @@
                 </li>
             </ul>
         </section>
-       
-        <!-- SECTION: MY PORTFOLIO -->
         <br>
+        <!-- SECTION: MY PORTFOLIO -->
         <section id="portfolio" class="section section-portfolio black darken-1 white-text center scrollspy">
             <div class="container">
                 <div class="row">
-                    <h2>My Portfolio</h2>
+                    <h2>Portfolio</h2>
                 </div>
             </div>
         </section>
-        <br>
         
         <!-- PORTFOLIO -->
 
@@ -149,8 +147,8 @@
                 </div>
             </div>
         </div>
+    
             
-
     <!-- PROJECT 3 -->
     <div class="row center-cols center-align">
         <div class="col m4">
@@ -204,18 +202,14 @@
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Clicky Game<i class="material-icons right">close</i></span>
-                    
                     <p>Click on a picture to reach your highest score. But be sure not to click on the same picture twice - or you're done for!</p>
-
                     <p>Technologies Used:</p>
                     <div>REACT</div>
                     <div>JAVASCRIPT</div>
-                    
                 </div>
             </div>
         </div>
            
-                            
     <!-- CRYSTAL COLLECTOR-->                    
     <div class="row center-cols center-align">
         <div class="col m4">
@@ -263,14 +257,54 @@
                     <div>JAVASCRIPT</div>
                 </div>
             </div>
-        </div>
+        <!-- </div> -->
     </section>
+      <!-- SECTION: SKILLS -->
+      <section id="skills" class="section section-skills black darken-1 white-text center scrollspy">
+            <div class="container">
+                <div class="row">
+                    <h2>Skills</h2>
+                </div>
+            </div>
+        </section>
+        <br>
 
-
+        <section class="container">
+                <ul class="container">
+                    <li>
+                        <img id="black and white" src="assets/images/grayFlower.jpeg"> 
+                        <div class="caption center-align">
+                            <h1>Skillz</h1>
+                            <br>
+                            <h5 class="dark-overlay-2 flow-text">It's like this and like that and like this and uh</h5>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <br>
 
     <!-- FOOTER -->
-    <footer class="section black darken-2 white-text center">
-        <span class="flow-text">Rachael Whitefield &copy; 2019</span>
+    <footer class="section black darken-2 white-text">
+        <nav class="black">
+            <div class="container">
+                <div class="wrapper">
+                    <ul>
+                        <li>
+                            <a href="#home">CV</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/RachaelWhitefield" target="_blank">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/rachael-whitefield-952198180/" target="_blank">Linked In</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </footer>
         
     
@@ -290,6 +324,7 @@
             transition: 1000,
             interval: 6000
         });
+       
         // Scrollspy
         const ss = document.querySelectorAll(".scrollspy");
         M.Scrollspy.init(ss, {});
