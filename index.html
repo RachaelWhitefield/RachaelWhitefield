@@ -55,7 +55,7 @@
                     <a href="https://www.linkedin.com/in/rachael-whitefield-952198180/" target="_blank">Linked In</a>
                 </li>
             </ul>
-            <!-- <br> -->
+            <br>
 
             <div class="parallax-container center valign-wrapper">
                     <div class="container">
@@ -74,7 +74,7 @@
                         <img src="assets/images/image35.jpg">
                     </div>
                 </div>
-            
+            <br>
         <!-- SECTION: MY PORTFOLIO -->
         <section id="portfolio" class="section section-portfolio black darken-1 white-text center scrollspy">
             <div class="container">
@@ -276,18 +276,31 @@
         <br>
 
         <section class="slider">
-            <ul class="slides">
-                <li>
-                    <img id="desk" src="assets/images/pinkDiamond2.jpg"> 
-                    <div class="caption center-align">
-                        <h1></h1>
-                        <br>
-                        <h5 class="dark-overlay-2 flow-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio temporibus illum quas, assumenda omnis ut, perferendis possimus facere aliquid recusandae labore molestiae aut, ex a quaerat fugiat esse sequi nobis harum consequuntur ad. Laborum quo, blanditiis recusandae sint officia accusamus culpa! Incidunt accusamus iure recusandae deserunt reiciendis libero, dolor beatae!</h5>
-                    </div>
-                </li>
-            </ul>
-        </section>
-         <br>
+                <ul class="slides">
+                    <li>
+                        <img src="assets/images/spiderMan.jpeg">
+                        <div class="caption center-align">
+                            <h2>HTML</h2>
+                            <h5 class="light grey-text text-lighten-3">This is where I explain how awesome I am at HTML, yo!</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/images/spongebob4.jpeg">
+                        <div class="caption left-align">
+                            <h2>CSS</h2>
+                            <h5 class="light grey-text text-lighten-3">OMG!  CSS is sooooo amazing!  Instant gratification!</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/images/pinkMap.jpeg">
+                        <div class="caption right-align">
+                            <h2>JavaScript</h2>
+                            <h5 class="light grey-text text-lighten-3">This is sometimes a bear, but you gotta learn it!</h5>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <br>
 
     <!-- FOOTER -->
     <footer class="section black darken-2 white-text">
@@ -317,27 +330,6 @@
     
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <script>
-        // Sidenav
-        const sideNav = document.querySelector(".sidenav");
-        M.Sidenav.init(sideNav, {});
-
-        // Parallax
-        const parallax = document.querySelectorAll(".parallax");
-        M.Parallax.init(parallax, {});
-
-        // Slider
-        const slider = document.querySelector(".slider");
-        M.Slider.init(slider, {
-            indicators: false,
-            height: 500,
-            transition: 1000,
-            interval: 6000
-        });
-       
-        // Scrollspy
-        const ss = document.querySelectorAll(".scrollspy");
-        M.Scrollspy.init(ss, {});
-        </script>
+        <script src="app.js"></script>
     </body>
 </html>
