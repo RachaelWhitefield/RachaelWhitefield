@@ -25,10 +25,10 @@
                         <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                         <ul class="left hide-on-med-and-down">
                             <li>
-                                <a href="#home">CV</a>
+                                <a href="#portfolio">Portfolio</a>
                             </li>
                             <li>
-                                <a href="#portfolio">Portfolio</a>
+                                <a href="#skills">Skills</a>
                             </li>
                             <li>
                                 <a href="https://github.com/RachaelWhitefield" target="_blank">GitHub</a>
@@ -55,21 +55,26 @@
                     <a href="https://www.linkedin.com/in/rachael-whitefield-952198180/" target="_blank">Linked In</a>
                 </li>
             </ul>
-            <br>
-        <!-- SECTION: SLIDER -->
-        <section class="slider">
-            <ul class="slides">
-                <li>
-                    <img id="desk" src="assets/images/image35.jpg"> 
-                    <div class="caption center-align">
-                        <h1>Web Developer</h1>
-                        <br>
-                        <h5 class="dark-overlay-2 flow-text">Vivacious front-end web developer with an extensive background in business ownership and management.  Passionate about integrating simple yet sophisticated designs as well as an appreciation for approaching programming challenges from different angles. Expertise managing business relationships and administering issue resolution to create better user interface experiences.</h5>
+            <!-- <br> -->
+
+            <div class="parallax-container center valign-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col s12 white-text">
+                                <h1 class="white-text white-text lighten-2">Web Developer</h1>
+                                <h5 class="dark-overlay-2">Vivacious front-end web developer with an extensive background in business ownership and management.  Passionate about integrating simple yet sophisticated designs as well as an appreciation for approaching programming challenges from different angles. Expertise managing business relationships and administering issue resolution to create better user interface experiences.</h5>
+                                <br>
+                                <br>
+                                <a class="waves-effect waves-light btn-large teal lighten-2">Resumé</a>
+                            </div>
+                        </div>
                     </div>
-                </li>
-            </ul>
-        </section>
-        <br>
+                        
+                    <div class="parallax">
+                        <img src="assets/images/image35.jpg">
+                    </div>
+                </div>
+            
         <!-- SECTION: MY PORTFOLIO -->
         <section id="portfolio" class="section section-portfolio black darken-1 white-text center scrollspy">
             <div class="container">
@@ -127,7 +132,7 @@
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Bulleted<i class="material-icons right">close</i></span>
-                    <p>An online bullet journal meant to make organizing your life and thoughts more accesible in your day-to-day life.  This on-line bullet journal can be used as a personal journal as well as daily, weekly, and monthly to-do lists.</p>
+                    <p>An online bullet journal meant to make organizing your life and thoughts more accesible in your day-to-day life.  This online bullet journal can be used as a personal journal as well as daily, weekly, and monthly to-do lists.</p>
                     <p>I built the log in authentication code and designed the 404 page.</p>
                     <p>Technologies Used:</p>
                     <div>HTML</div>
@@ -259,6 +264,7 @@
             </div>
         <!-- </div> -->
     </section>
+
       <!-- SECTION: SKILLS -->
       <section id="skills" class="section section-skills black darken-1 white-text center scrollspy">
             <div class="container">
@@ -269,19 +275,19 @@
         </section>
         <br>
 
-        <section class="container">
-                <ul class="container">
-                    <li>
-                        <img id="black and white" src="assets/images/grayFlower.jpeg"> 
-                        <div class="caption center-align">
-                            <h1>Skillz</h1>
-                            <br>
-                            <h5 class="dark-overlay-2 flow-text">It's like this and like that and like this and uh</h5>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-            <br>
+        <section class="slider">
+            <ul class="slides">
+                <li>
+                    <img id="desk" src="assets/images/pinkDiamond2.jpg"> 
+                    <div class="caption center-align">
+                        <h1></h1>
+                        <br>
+                        <h5 class="dark-overlay-2 flow-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio temporibus illum quas, assumenda omnis ut, perferendis possimus facere aliquid recusandae labore molestiae aut, ex a quaerat fugiat esse sequi nobis harum consequuntur ad. Laborum quo, blanditiis recusandae sint officia accusamus culpa! Incidunt accusamus iure recusandae deserunt reiciendis libero, dolor beatae!</h5>
+                    </div>
+                </li>
+            </ul>
+        </section>
+         <br>
 
     <!-- FOOTER -->
     <footer class="section black darken-2 white-text">
@@ -315,6 +321,10 @@
         // Sidenav
         const sideNav = document.querySelector(".sidenav");
         M.Sidenav.init(sideNav, {});
+
+        // Parallax
+        const parallax = document.querySelectorAll(".parallax");
+        M.Parallax.init(parallax, {});
 
         // Slider
         const slider = document.querySelector(".slider");
