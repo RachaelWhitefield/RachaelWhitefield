@@ -13,6 +13,14 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RACHAEL WHITEFIELD - WEB DEVELOPER</title>
+    <style>
+        .tabs .indicator{
+    background-color: #1a237e;
+  }
+  .tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+  }
+    </style>
 </head>
 
 <body id="home" class="scrollspy">
@@ -29,6 +37,9 @@
                     <li>
                         <a href="#skills">Skills</a>
                     </li>
+                    <li>
+                        <a href="#contact">Connect</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -40,6 +51,9 @@
         </li>
         <li>
             <a href="#skills">Skills</a>
+        </li>
+        <li>
+            <a href="#contact">Connect</a>
         </li>
     </ul>
 <br>
@@ -242,71 +256,85 @@
             </div>
 </section>
 
-      <!-- SECTION: SKILLS -->
-      <section id="skills" class="section section-skills black darken-1 white-text center scrollspy">
-            <div class="container">
-                <div class="row">
-                    <h2>Skills</h2>
-                </div>
-            </div>
-        </section>
-        <br>
+<!-- SECTION: SKILLS -->
+<section id="skills" class="section section-portfolio black darken-1 white-text center scrollspy">
+    <div class="container">
+        <div class="row">
+            <h2>Skills</h2>
+        </div>
+    </div>
+</section>
 
-        <section class="slider">
-            <ul class="slides">
-                <li>
-                    <img src="assets/images/spiderMan.jpeg">
-                    <div class="caption center-align">
-                        <h2>HTML</h2>
-                        <h5 class="light grey-text text-lighten-3">Ah yes, the foundation of it all.  If a strong foundation is there, the rest will follow.</h5>
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/images/pinkDiamond2.jpg">
-                    <div class="caption left-align">
-                        <h2 class="dark black-text text-lighten-3">CSS</h2>
-                        <h5 class="dark black-text text-lighten-3">CSS is what makes my beautiful world go 'round.</h5>
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/images/pinkMap.jpeg">
-                    <div class="caption right-align">
-                        <h2 class="dark black-text text-lighten-3">JavaScript</h2>
-                        <h5 class="dark black-text text-lighten-3">Hate to love it, love to hate it</h5>
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/images/grayFlower.jpeg">
-                    <div class="caption center-align">
-                        <h2>GIT</h2>
-                        <h5 class="light grey-text text-lighten-3">Version Control, Version Control, Version Control.</h5>
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/images/grayBooks.jpeg">
-                    <div class="caption left-align">
-                        <h2>BOOTSTRAP / MATERIALIZE</h2>
-                        <h5 class="light grey-text text-lighten-3">Let's build something beautiful - quickly!</h5>
-                    </div>
-                </li>
+<section class="section scrollspy">
+    <div class="row">
+        <div class="col s12 l6">
+            <h2 class="black-text">What I Do...</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nobis magni at asperiores assumenda et.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, assumenda!</p>
+        </div>
+        <div class="col s12 l6">
+            <ul class="tabs">
+              <li class="tab col s2">
+                <a href="#html" class="indigo-text text-darken-4">HTML</a>
+              </li>
+              <li class="tab col s2">
+                <a href="#css" class="indigo-text text-darken-4">CSS</a>
+              </li>
+              <li class="tab col s2">
+                <a href="#git" class="indigo-text text-darken-4">GIT</a>
+              </li>
+              <li class="tab col s2">
+                <a href="#javascript" class="indigo-text text-darken-4">JAVASCRIPT</a>
+              </li>
+              <li class="tab col s2">
+                <a href="#frameworks" class="indigo-text text-darken-4">FRAMEWORKS</a>
+              </li>
             </ul>
-        </section>
-        <br>
+            <div class="col s12" id="html">
+              <p class="flow-text indigo-text text-darken-4">HTML</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quam.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laboriosam tenetur exercitationem!</p>
+            </div>
+            <div class="col s12" id="css">
+              <p class="flow-text indigo-text text-darken-4">CSS</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, excepturi?</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non exercitationem dicta ab.</p>
+            </div>
+            <div class="col s12" id="git">
+                <p class="flow-text indigo-text text-darken-4">GIT</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deserunt magni eligendi?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, commodi porro.</p>
+            </div>
+            <div class="col s12" id="javascript">
+                <p class="flow-text indigo-text text-darken-4">JAVASCRIPT</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deserunt magni eligendi?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, commodi porro.</p>
+            </div>
+            <div class="col s12" id="frameworks">
+                <p class="flow-text indigo-text text-darken-4">MATERIALIZE / BOOTSTRAP</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis sunt accusamus quod libero? Veritatis, magni.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, eligendi!</p>
+            </div>
+        </div>
+    </div>
+</section>
 
+        
     <!-- FOOTER -->
     <footer class="page-footer grey darken-3">
         <div class="container">
           <div class="row">
             <div class="col s12 l6">
-              <h5>About Me</h5>
+              <h5>Education</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ut aperiam quo quae. Cupiditate iusto quis quae magnam, fuga iure.</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quam id atque dicta odio. Accusantium.</p>
             </div>
             <div class="col s12 l4 offset-l2">
-              <h5>Connect</h5>
+              <h5 id="contact">Connect</h5>
               <ul>
                 <li><a href="https://www.linkedin.com/in/rachael-whitefield-952198180/" target="_blank" class="grey-text text-lighten-3">LinkedIn</a></li>
                 <li><a href="https://github.com/RachaelWhitefield" target="_blank" class="grey-text text-lighten-3">GitHub</a></li>
+                <li><a href="mailto:rachael.whitefield@gmail.com?Subject=Loved%20Your%20Portfolio" target="_top" class="grey-text text-lighten-3">Email Me</a></li>
               </ul>
             </div>
           </div>
@@ -321,5 +349,12 @@
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <script src="app.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".tabs").tabs();
+        });
+    </script>
     </body>
 </html>

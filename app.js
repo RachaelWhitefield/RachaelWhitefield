@@ -20,3 +20,7 @@ M.Slider.init(slider, {
 // Scrollspy
 const ss = document.querySelectorAll(".scrollspy");
 M.Scrollspy.init(ss, {});
+
+// Tabs
+const instance = document.querySelectorAll(".tabs");
+M.Tabs.init(el, options);
