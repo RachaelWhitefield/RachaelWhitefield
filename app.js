@@ -8,15 +8,6 @@ M.Sidenav.init(sideNav, {});
 const parallax = document.querySelectorAll(".parallax");
 M.Parallax.init(parallax, {});
 
-// Slider
-const slider = document.querySelector(".slider");
-M.Slider.init(slider, {
-    indicators: false,
-    height: 500,
-    transition: 500,
-    interval: 6000
-});
-
 // Scrollspy
 const ss = document.querySelectorAll(".scrollspy");
 M.Scrollspy.init(ss, {});

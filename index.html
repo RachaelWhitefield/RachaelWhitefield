@@ -28,33 +28,21 @@
     <nav class="black">
         <div class="nav-wrapper">
             <div class="container">
-                <a href="#" class="brand-logo container center-align">Rachael Whitefield</a>
-                <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <a href="" class="brand-logo container center-align">Rachael Whitefield</a>
+                <a href="" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li>
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#skills">Skills</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Connect</a>
-                    </li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#connect">Connect</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 <!-- MOBILE NAV-->
     <ul class="sidenav" id="mobile-nav">
-        <li>
-            <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-            <a href="#skills">Skills</a>
-        </li>
-        <li>
-            <a href="#contact">Connect</a>
-        </li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#connect">Connect</a></li>
     </ul>
 <br>
 
@@ -67,7 +55,7 @@
                     <h5 class="dark-overlay-2 flow-text">Vivacious front-end web developer with an extensive background in business ownership and management.  Passionate about integrating simple yet sophisticated designs as well as an appreciation for approaching programming challenges from different angles. Expertise managing business relationships and administering issue resolution to create better user interface experiences.</h5>
                     <br>
                     <br>
-                <a class="waves-effect waves-light btn-large teal lighten-2">Resumé</a>
+                <a href="resume.html" class="waves-effect waves-light btn-large teal lighten-2">Resumé</a>
             </div>
         </div>
     </div>
@@ -78,7 +66,7 @@
 <br>
 
 <!-- SECTION: MY PORTFOLIO -->
-<section id="portfolio" class="section section-portfolio black darken-1 white-text center scrollspy">
+<section id="portfolio" class="scrollspy section section-portfolio black darken-1 white-text center">
     <div class="container">
         <div class="row">
             <h2>Portfolio</h2>
@@ -129,7 +117,7 @@
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Bulleted<i class="material-icons right">close</i></span>
-                    <p>An online bullet journal meant to make organizing your life and thoughts more accesible in your day-to-day life.  This online bullet journal can be used as a personal journal as well as daily, weekly, and monthly to-do lists.</p>
+                    <p>An online bullet journal meant to make organizing your life and thoughts more accessible in your day-to-day life.  This online bullet journal can be used as a personal journal as well as daily, weekly, and monthly to-do lists.</p>
                     <p>I built the log in authentication code and designed the 404 page.</p>
                     <p>Technologies Used:</p>
                         <div>HTML</div>
@@ -265,7 +253,7 @@
     </div>
 </section>
 
-<section class="section scrollspy">
+<section class="section">
     <div class="row">
         <div class="col s12 l6">
             <h2 class="black-text">What I Do...</h2>
@@ -330,7 +318,7 @@
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quam id atque dicta odio. Accusantium.</p>
             </div>
             <div class="col s12 l4 offset-l2">
-              <h5 id="contact">Connect</h5>
+              <h5 id="connect" class="scrollspy">Connect</h5>
               <ul>
                 <li><a href="https://www.linkedin.com/in/rachael-whitefield-952198180/" target="_blank" class="grey-text text-lighten-3">LinkedIn</a></li>
                 <li><a href="https://github.com/RachaelWhitefield" target="_blank" class="grey-text text-lighten-3">GitHub</a></li>
@@ -355,6 +343,10 @@
         $(document).ready(function(){
             $(".tabs").tabs();
         });
+
+        $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });
     </script>
     </body>
 </html>
