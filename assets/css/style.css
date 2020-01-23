@@ -5,3 +5,12 @@
     background: transparent;
   }
 
+.resume{
+  border: 3px solid #4B79A1;
+  width: 100%;
+  height: auto;
+}
+.main {
+    padding: 3rem;
+    margin-bottom: 5rem;
+  }
