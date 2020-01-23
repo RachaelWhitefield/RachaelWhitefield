@@ -28,18 +28,18 @@
     <nav class="black">
         <div class="nav-wrapper">
             <div class="container">
-                <a href="" class="brand-logo container center-align">Rachael Whitefield</a>
-                <a href="" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
+                <div class="brand-logo container center-align">Rachael Whitefield</div>
+                <a href="#" class="sidenav-trigger" data-target="mobile-menu"><i class="material-icons">menu</i></a>
+                <!-- <ul class="right hide-on-med-and-down">
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#connect">Connect</a></li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </nav>
 <!-- MOBILE NAV-->
-    <ul class="sidenav" id="mobile-nav">
+    <ul class="sidenav" id="mobile-menu">
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#connect">Connect</a></li>
@@ -245,7 +245,7 @@
 </section>
 
 <!-- SECTION: SKILLS -->
-<section id="skills" class="section section-portfolio black darken-1 white-text center scrollspy">
+<section id="skills" class="scrollspy section section-portfolio black darken-1 white-text center">
     <div class="container">
         <div class="row">
             <h2>Skills</h2>
@@ -341,11 +341,8 @@
     <script>
         $(document).ready(function(){
             $(".tabs").tabs();
+            $('.scrollspy').scrollSpy();
         });
-
-        $(document).ready(function(){
-    $('.scrollspy').scrollSpy();
-  });
     </script>
     </body>
 </html>
