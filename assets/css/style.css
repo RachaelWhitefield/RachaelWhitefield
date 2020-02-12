@@ -25,3 +25,7 @@
   .tabs .tab a:focus, .tabs .tab a:focus.active{
     background: transparent;
   }
+
+  .dots:hover {
+    color: #4db6ac;
+  }
